@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background"
+    tools:context=".authen">
+
+    <EditText
+        android:id="@+id/edPassword"
+        android:layout_width="714px"
+        android:layout_height="120px"
+        android:layout_marginTop="49dp"
+        android:background="@drawable/bklogin"
+        android:ems="10"
+        android:hint="    Password"
+        android:inputType="textPassword"
+        android:textColor="#616161"
+        android:textColorHint="#FFFFFF"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.496"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView3"
+        tools:ignore="TouchTargetSizeCheck" />
+
+    <EditText
+        android:id="@+id/edEmail"
+        android:layout_width="714px"
+        android:layout_height="120px"
+        android:layout_marginTop="28dp"
+        android:background="@drawable/bklogin"
+        android:ems="10"
+        android:hint="    Email"
+        android:inputType="textEmailAddress"
+        android:textColor="#616161"
+        android:textColorHint="#FFFFFF"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.496"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/edPassword"
+        tools:ignore="TouchTargetSizeCheck" />
+
+    <ImageView
+        android:id="@+id/imageView3"
+        android:layout_width="410px"
+        android:layout_height="500px"
+        android:layout_marginTop="50dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/logo" />
+
+    <ImageButton
+        android:id="@+id/imageButton4"
+        android:layout_width="714px"
+        android:layout_height="120px"
+        android:layout_marginTop="39dp"
+        android:onClick="OnClickSignIn"
+        android:background="@drawable/btnsign"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/edEmail"
+        tools:ignore="SpeakableTextPresentCheck,TouchTargetSizeCheck" />
+
+    <ImageButton
+        android:id="@+id/imageButton5"
+        android:layout_width="360px"
+        android:layout_height="30px"
+        android:layout_marginTop="36dp"
+        android:background="@drawable/zabil"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageButton4"
+        tools:ignore="TouchTargetSizeCheck,SpeakableTextPresentCheck" />
+</androidx.constraintlayout.widget.ConstraintLayout>

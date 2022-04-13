@@ -4,57 +4,65 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="@drawable/background"
     tools:context=".Login">
 
-    <EditText
-        android:id="@+id/edName"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginTop="92dp"
-        android:ems="10"
-        android:hint="Name"
-        android:inputType="textPersonName"
-        android:textColor="#616161"
-        android:textColorHint="#616161"
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="410px"
+        android:layout_height="500px"
+        android:layout_marginTop="50dp"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/logo" />
+
 
     <EditText
-        android:id="@+id/edSecName"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginTop="36dp"
+        android:id="@+id/edEmail"
+        android:layout_width="714px"
+        android:layout_height="120px"
+        android:layout_marginTop="90dp"
+        android:background="@drawable/bklogin"
         android:ems="10"
-        android:hint="Second Name"
-        android:inputType="textPersonName"
+        android:hint="    Email"
+        android:inputType="textEmailAddress"
         android:textColor="#616161"
-        android:textColorHint="#616161"
+        android:textColorHint="#FFFFFF"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.496"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView2"
+        tools:ignore="TouchTargetSizeCheck" />
+
+    <EditText
+        android:id="@+id/edPassword"
+        android:layout_width="714px"
+        android:layout_height="120px"
+        android:layout_marginTop="31dp"
+        android:background="@drawable/bklogin"
+        android:ems="10"
+        android:hint="    Password"
+        android:inputType="textPassword"
+        android:textColor="#616161"
+        android:textColorHint="#FFFFFF"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.496"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/edEmail"
+        tools:ignore="TouchTargetSizeCheck" />
+
+    <ImageButton
+        android:id="@+id/imageButton7"
+        android:layout_width="714px"
+        android:layout_height="120px"
+        android:layout_marginTop="40dp"
+        android:onClick="OnClickSignUp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/edName" />
+        app:layout_constraintTop_toBottomOf="@+id/edPassword"
+        android:background="@drawable/btnreg" />
 
-
-    <Button
-        android:id="@+id/button"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginTop="20dp"
-        android:onClick="onClickSave"
-        android:text="SAve"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/edSecName" />
-
-    <Button
-        android:id="@+id/button2"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginTop="48dp"
-        android:onClick="onClickRead"
-        android:text="Read"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/button" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
