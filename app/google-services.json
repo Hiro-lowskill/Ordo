@@ -1,0 +1,69 @@
+{
+  "project_info": {
+    "project_number": "534809226170",
+    "firebase_url": "https://ordo-dbac2-default-rtdb.asia-southeast1.firebasedatabase.app",
+    "project_id": "ordo-dbac2",
+    "storage_bucket": "ordo-dbac2.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:534809226170:android:e5881308f391c4b3154b83",
+        "android_client_info": {
+          "package_name": "com.example.myapplication"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "534809226170-2pc24hdutn5jn509pdrpfafgh6sioobf.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD4-DnaDypa2VGrSqnQNVDl_rlZeol1Gzs"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "534809226170-2pc24hdutn5jn509pdrpfafgh6sioobf.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:534809226170:android:2e9e24ba482e0f03154b83",
+        "android_client_info": {
+          "package_name": "com.ueo.study.ueotodolist"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "534809226170-2pc24hdutn5jn509pdrpfafgh6sioobf.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD4-DnaDypa2VGrSqnQNVDl_rlZeol1Gzs"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "534809226170-2pc24hdutn5jn509pdrpfafgh6sioobf.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
