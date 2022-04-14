@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="com.example.myapplication">
+    package="com.example.myapplication" >
 
     <application
         android:allowBackup="true"
@@ -8,7 +8,7 @@
         android:label="Ordo"
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
-        android:theme="@style/Theme.MyApplication">
+        android:theme="@style/Theme.MyApplication" >
         <activity
             android:name=".reset"
             android:exported="true" />
@@ -29,7 +29,7 @@
             android:exported="true" />
         <activity
             android:name=".splash"
-            android:exported="true">
+            android:exported="true" >
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
