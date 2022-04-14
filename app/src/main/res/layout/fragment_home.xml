@@ -5,53 +5,40 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="@drawable/background"
-    tools:context=".MainActivity" >
+    tools:context=".ui.home.HomeFragment">
 
     <ImageButton
-        android:id="@+id/imageButton2"
+        android:id="@+id/imageButton"
         android:layout_width="714px"
         android:layout_height="140px"
-        android:layout_marginTop="140dp"
+        android:layout_marginTop="40dp"
         android:background="@drawable/btn2"
-        android:onClick="сreateDialog"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.496"
+        app:layout_constraintHorizontal_bias="0.503"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/imageView"
+        app:layout_constraintTop_toBottomOf="@+id/imageButton6"
         tools:ignore="OnClick,SpeakableTextPresentCheck" />
 
     <ImageButton
-        android:id="@+id/imageButton3"
+        android:id="@+id/imageButton6"
         android:layout_width="714px"
         android:layout_height="140px"
-        android:layout_marginTop="20dp"
+        android:layout_marginTop="40dp"
         android:background="@drawable/btn2"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.496"
+        app:layout_constraintHorizontal_bias="0.503"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/imageButton2"
+        app:layout_constraintTop_toBottomOf="@+id/imageView5"
         tools:ignore="SpeakableTextPresentCheck" />
 
     <ImageView
-        android:id="@+id/imageView"
+        android:id="@+id/imageView5"
         android:layout_width="410px"
         android:layout_height="500px"
-        android:layout_marginTop="50dp"
+        android:layout_marginTop="100dp"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.498"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:srcCompat="@drawable/logo" />
 
-
-    <ImageButton
-        android:id="@+id/imgbtn1"
-        android:layout_width="143px"
-        android:layout_height="143px"
-        android:layout_marginStart="16dp"
-        android:layout_marginTop="16dp"
-        android:background="@drawable/btn1"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        tools:ignore="PxUsage,SpeakableTextPresentCheck" />
 </androidx.constraintlayout.widget.ConstraintLayout>

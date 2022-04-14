@@ -10,6 +10,11 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.MyApplication" >
         <activity
+            android:name=".MainActivity2"
+            android:exported="true"
+            android:label="@string/title_activity_main2"
+            android:theme="@style/Theme.MyApplication.NoActionBar" />
+        <activity
             android:name=".reset"
             android:exported="true" />
         <activity
