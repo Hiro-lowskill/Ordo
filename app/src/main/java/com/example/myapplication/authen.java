@@ -48,4 +48,8 @@ public class authen extends AppCompatActivity {
             });
         }
     }
+    public void btn(View view){
+        Intent i = new Intent(this,reset.class);
+        startActivity(i);
+    }
 }
