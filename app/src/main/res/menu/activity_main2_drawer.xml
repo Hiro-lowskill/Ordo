@@ -4,17 +4,37 @@
     tools:showIn="navigation_view">
 
     <group android:checkableBehavior="single">
-        <item
-            android:id="@+id/nav_home"
-            android:icon="@drawable/ic_menu_camera"
-            android:title="@string/menu_home" />
-        <item
-            android:id="@+id/nav_gallery"
-            android:icon="@drawable/ic_menu_gallery"
-            android:title="@string/menu_gallery" />
+
+
         <item
             android:id="@+id/nav_slideshow"
-            android:icon="@drawable/ic_menu_slideshow"
-            android:title="@string/menu_slideshow" />
+            android:icon="@drawable/icon_doska"
+            android:title="Доска" />
+
+        <item
+            android:id="@+id/nav_home"
+            android:icon="@drawable/icon_dom"
+            android:title="Дом" />
+        <item
+            android:id="@+id/nav_gallery"
+            android:icon="@drawable/icon_vxod"
+            android:title="Рабочее место Ordo" />
+        <item
+            android:id="@+id/nav_gg4"
+            android:title="Рабочее место" />
+        <item
+            android:id="@+id/nav_gg5"
+            android:icon="@drawable/icon_chelovek"
+            android:title="Рабочее место Ordo" />
+        <item
+            android:id="@+id/nav_gg"
+            android:icon="@drawable/icon_moi"
+            android:title="Мои работы" />
+
+        <item
+            android:id="@+id/nav_gg2"
+            android:icon="@drawable/icon_tex"
+            android:title="Поддержка" />
+
     </group>
 </menu>

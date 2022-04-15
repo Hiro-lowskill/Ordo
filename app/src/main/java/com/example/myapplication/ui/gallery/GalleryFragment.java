@@ -1,9 +1,11 @@
 package com.example.myapplication.ui.gallery;
 
+import android.content.Intent;
 import android.os.Bundle;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
+import android.widget.Button;
 import android.widget.TextView;
 
 import androidx.annotation.NonNull;
@@ -12,7 +14,9 @@ import androidx.fragment.app.Fragment;
 import androidx.lifecycle.Observer;
 import androidx.lifecycle.ViewModelProvider;
 
+import com.example.myapplication.Login;
 import com.example.myapplication.R;
+import com.example.myapplication.authen;
 import com.example.myapplication.databinding.FragmentGalleryBinding;
 
 public class GalleryFragment extends Fragment {
@@ -27,6 +31,22 @@ public class GalleryFragment extends Fragment {
 
         binding = FragmentGalleryBinding.inflate(inflater, container, false);
         View root = binding.getRoot();
+
+        Button button = (Button) root.findViewById(R.id.notes);
+        button.setOnClickListener(new View.OnClickListener() {
+            public void onClick(View v) {
+                Intent intent=new Intent(getContext(), Login.class);
+                startActivity(intent);
+            }
+        });
+
+        Button button2 = (Button) root.findViewById(R.id.notes2);
+        button2.setOnClickListener(new View.OnClickListener() {
+            public void onClick(View v) {
+                Intent intent=new Intent(getContext(), authen.class);
+                startActivity(intent);
+            }
+        });
 
         return root;
     }
